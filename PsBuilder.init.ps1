@@ -10,7 +10,7 @@ echo "Use of this application is governed by a BSD license in the BSD3 file."
 
 echo ""
 echo "Build started."
-Merge-Script -Verbose -Target .\app.ps1
+Invoke-ps2exe ".\PSApp.ps1" ".\WinApp.exe" -noConsole
 
 
 
