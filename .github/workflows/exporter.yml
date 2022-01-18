@@ -1,0 +1,14 @@
+name: Export Installer
+
+on: push
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    name: Export Installer
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/upload-artifact@v2
+        with:
+          name: installer
+          path: .\installer.ps1
