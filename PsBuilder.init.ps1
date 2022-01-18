@@ -7,8 +7,8 @@ echo "© 2022 PsBuilder and contributors. All rights reserved."
 echo "Use of this application is governed by a BSD license in the BSD3 file."
 
 echo ""
-echo "Installing cake."
-choco install cake
+echo "Installing cake. Make sure you have chocolatey installed!"
+choco install cake.portable
 
 echo ""
 echo "Build started."
