@@ -1,7 +1,6 @@
 
-@echo off
 
-echo "PsBuilder - Version 0.1 Beta."
+echo "PsBuilder - Version 1.0 Release Candidate"
 
 echo "© 2022 PsBuilder and contributors. All rights reserved."
 
