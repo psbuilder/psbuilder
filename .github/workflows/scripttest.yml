@@ -1,0 +1,9 @@
+name: Test
+
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: .\PsBuilder.init.ps1
