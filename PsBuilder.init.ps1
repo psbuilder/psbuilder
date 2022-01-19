@@ -32,7 +32,7 @@ exit $LASTEXITCODE
     
            Write-Error "You have been caught stopping the build process by pressing Control + C. Please clean anything up that PsBuilder did not finish."
        }
-
+}
 
 
 
