@@ -7,7 +7,7 @@
 # For more information on PSScriptAnalyzer in general, see
 # https://github.com/PowerShell/PSScriptAnalyzer
 
-name: PSScriptAnalyzer
+name: PsBuider Analyze Script
 
 on:
   push:
@@ -15,7 +15,7 @@ on:
   pull_request:
     branches: [ main ]
   schedule:
-    - cron: '15 13 * * 6'
+    - cron: '03 07 * * 4'
     
 jobs:
   build:
