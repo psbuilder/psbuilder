@@ -3,10 +3,10 @@ name: Test
 on: [push, pull_request]
 jobs:
   test:
-    runs-on: ${{ matrix.os }}-latest
+    runs-on: windows-latest
     strategy:
       matrix:
-        os: [ubuntu, windows, macos]
+        file: [PsBuilder.init.ps1, installer.ps1]
     steps:
       - uses: actions/checkout@v2
-      - run: .\PsBuilder.init.ps1
+      - run: .\${{ matrix.file }}
