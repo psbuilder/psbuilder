@@ -7,7 +7,7 @@
 # For more information on PSScriptAnalyzer in general, see
 # https://github.com/PowerShell/PSScriptAnalyzer
 
-name: PsBuider Analyze Script
+name: PsBuilder Analyze Script
 
 on:
   push:
