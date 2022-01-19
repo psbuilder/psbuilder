@@ -1,14 +1,14 @@
-name: Export Installer
+name: Export
 
 on: push
 
 jobs:
   export:
     runs-on: ubuntu-latest
-    name: Export Installer
+    name: Export PsBuilder
     steps:
       - uses: actions/checkout@v2
       - uses: actions/upload-artifact@v2
         with:
-          name: installer
-          path: /home/runner/work/psbuilder/psbuilder/installer.ps1
+          name: app
+          path: /home/runner/work/psbuilder/psbuilder/PsBuilder.init.ps1
