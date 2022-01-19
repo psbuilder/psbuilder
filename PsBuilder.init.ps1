@@ -24,7 +24,7 @@ try
       Invoke-Builder
       exit $LASTEXITCODE
    }
-
+}
 
 finally
 
