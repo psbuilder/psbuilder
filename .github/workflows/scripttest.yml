@@ -4,9 +4,6 @@ on: [push, pull_request]
 jobs:
   test:
     runs-on: windows-latest
-    strategy:
-      matrix:
-        file: [PsBuilder.init.ps1, installer.ps1]
     steps:
       - uses: actions/checkout@v2
-      - run: .\${{ matrix.file }}
+      - run: .\PsBuilder.init.ps1
