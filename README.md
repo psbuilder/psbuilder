@@ -4,3 +4,18 @@ Build and compile your PS Scripts. [Download the latest PsBuilder](https://githu
 [![Export](https://github.com/psbuilder/psbuilder/actions/workflows/exporter.yml/badge.svg)](https://github.com/psbuilder/psbuilder/actions/workflows/exporter.yml)
 
 [![Test](https://github.com/psbuilder/psbuilder/actions/workflows/scripttest.yml/badge.svg)](https://github.com/psbuilder/psbuilder/actions/workflows/scripttest.yml)
+
+## Free Software
+Because PsBuilder is under the BSD 3-Clause License, it is:
+
+╔═══╗───────────────╔═╦╗
+<br>
+║╔══╝───────────────║╔╝╚╗
+<br>
+║╚══╦═╦══╦══╗╔══╦══╦╝╚╗╔╣╔╗╔╦══╦═╦══╗
+<br>
+║╔══╣╔╣║═╣║═╣║══╣╔╗╠╗╔╣║╚╝╚╝║╔╗║╔╣║═╣
+<br>
+║║──║║║║═╣║═╣╠══║╚╝║║║║╚╗╔╗╔╣╔╗║║║║═╣
+<br>
+╚╝──╚╝╚══╩══╝╚══╩══╝╚╝╚═╩╝╚╝╚╝╚╩╝╚══╝
