@@ -1,7 +1,7 @@
 ## Hello!
 We welcome contributions, either using issues or pull requests. But first, read these guidelines.
 
-***Note: We also have a [Code of Conduct](CODE_OF_CONDUCT.md). By contributing to PsBuilder you agree to the terms of this code of conduct.***
+***Note: We also have a [Code of Conduct](CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct). By contributing to PsBuilder you agree to the terms of this code of conduct.***
 
 ### Steps
 First, you should click `Fork` and (if you are a member or owner of an org) click your personal account. Edit the file you are changing.
