@@ -1,5 +1,5 @@
 # psbuilder logo
-echo "╔═══╗──╔══╗────╔╗──╔╗      TM"
+echo "╔═══╗──╔══╗────╔╗──╔╗"
 
 echo "║╔═╗║──║╔╗║────║║──║║"
 
@@ -22,7 +22,7 @@ Install-Module -Name PSBuilder -Force
 echo ""
 echo "Build started!"
 Invoke-Builder
-Write-Debug "Everything done"
+
    
 
 
