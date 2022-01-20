@@ -16,27 +16,3 @@ Invoke-Builder
 
 
 
-[Console]::TreatControlCAsInput = $true # at beginning of script
-
-    if ([Console]::KeyAvailable){
-
-        $readkey = [Console]::ReadKey($true)
-
-        if ($readkey.Modifiers -eq "Control" -and $readkey.Key -eq "C"){                
-
-            
-
-
-        
-
-    
-           Write-Error "You have been caught stopping the build process by pressing Control + C. Please clean anything up that PsBuilder did not finish."
-           Exit 15
-       }
-}
-
-
-
-
-
-
