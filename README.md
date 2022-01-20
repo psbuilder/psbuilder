@@ -19,3 +19,5 @@ Because PsBuilder is under the BSD 3-Clause License, it is:
 ║║──║║║║═╣║═╣╠══║╚╝║║║║╚╗╔╗╔╣╔╗║║║║═╣
 <br>
 ╚╝──╚╝╚══╩══╝╚══╩══╝╚╝╚═╩╝╚╝╚╝╚╩╝╚══╝
+
+Our license is [OSI](https://opensource.org/licenses/BSD-3-Clause) and [FSF](https://gnu.org/licenses/license-list.en.html#ModifiedBSD) approved. It is also GPL-compatible.
