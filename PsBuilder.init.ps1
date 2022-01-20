@@ -10,6 +10,7 @@ echo "║╔══╣══╣╔═╗║║║╠╣║║╔╗║║═╣�
 echo "║║──╠══║╚═╝║╚╝║║╚╣╚╝║║═╣║"
 
 echo "╚╝──╚══╩═══╩══╩╩═╩══╩══╩╝"
+echo "            https://psbuilder.github.io"
 echo "Version 1.1.0 Beta"
 echo "© 2022 PsBuilder and contributors. All rights reserved."
 echo "Contains script modules in order to function properly!"
