@@ -1,4 +1,4 @@
-# <sub>PsBuilder<sup>TM</sup>*①*</sub><br /><sub><sub><sub>Free open source PWSH builder under a BSD license.</sub></sub></sub>
+# <sub>PsBuilder*①*</sub><br /><sub><sub><sub>Free open source PWSH builder under a BSD license.</sub></sub></sub>
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](LICENSE)
 
 Build and compile your PS Scripts. [Download the latest PsBuilder](https://github.com/psbuilder/psbuilder/releases/download/1.0/PsBuilder.ps1).
