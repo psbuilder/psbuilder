@@ -1,5 +1,5 @@
 # <sub>PsBuilder*①*</sub><br /><sub><sub><sub>Free and open-source PowerShell builder.</sub></sub></sub>
-[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](LICENSE)[![PowerShell](https://github.com/psbuilder/psbuilder/raw/main/Powered%20by-PowerShell-blue.svg)](https://github.com/powershell)
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](LICENSE)[![PowerShell](https://github.com/psbuilder/psbuilder/raw/main/Powered%20by-PowerShell-blue.svg)](https://github.com/powershell)[![GitHub version](https://badge.fury.io/gh/psbuilder%2Fpsbuilder.svg)](https://badge.fury.io/gh/psbuilder%2Fpsbuilder)
 
 Build and compile your PS Scripts. [Download the latest PsBuilder](https://github.com/psbuilder/psbuilder/releases/download/1.0/PsBuilder.ps1).
 ## Build action status
