@@ -1,12 +1,3 @@
-$Now = Get-Date
-
-Start-Job -Name 'C' -ScriptBlock {
-
-  Get-ChildItem -Path 'C:\' -Recurse | Set-Content -Path '.\outtext.txt' } 
-
-
-    
-
 
 # psbuilder logo
 echo "╔═══╗──╔══╗────╔╗──╔╗"
@@ -32,8 +23,12 @@ Install-Module -Name PSBuilder -Force
 echo ""
 echo "Build started!"
 Invoke-Builder
+$exitcode = $LASTEXICODE
 
-   
+catch {
+  Write-Error "An error occured. The build failed with exit code $exitcode. Please manually clean anything up that was not finished. For more info on how to solve this, visit https://psbuildergithub.io/docs."
+  exit $exitcode
+}
 
 
 
