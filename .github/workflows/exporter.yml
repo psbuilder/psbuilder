@@ -4,15 +4,15 @@ on: push
 
 jobs:
   export:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     name: Export PsBuilder
     steps:
       - uses: actions/checkout@v2
       - run: cd .\
       - run: Install-Module ps2exe -Force
-        shell: pwsh      
+        shell: powershell     
       - run: Invoke-ps2exe ".\PsBuilder.init.ps1" ".\PsBuilder.exe" -noConsole
-        shell: pwsh
+        shell: powershell
       - uses: actions/upload-artifact@v2
         with:
           name: app
