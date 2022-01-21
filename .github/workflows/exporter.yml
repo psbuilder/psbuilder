@@ -9,6 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: cd .\
+      - run: mv ".\PsBuilder.init.ps1" .\PsBuilder.ps1"
       - run: Install-Module ps2exe -Force
         shell: powershell     
       - run: Invoke-ps2exe ".\PsBuilder.init.ps1" ".\PsBuilder.exe" -noConsole
@@ -17,3 +18,7 @@ jobs:
         with:
           name: app
           path: .\PsBuilder.exe
+      - uses: actions/upload-artifact@v2
+        with:
+          name: executable-pwsh-script
+          path: .\PsBuilder.ps1
