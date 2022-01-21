@@ -9,10 +9,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: cd .\
-      - run: mv ".\PsBuilder.init.ps1" .\PsBuilder.ps1"
+      - run: mv ".\PsBuilder.init.ps1" ".\PsBuilder.ps1"
       - run: Install-Module ps2exe -Force
         shell: powershell     
-      - run: Invoke-ps2exe ".\PsBuilder.init.ps1" ".\PsBuilder.exe" -noConsole
+      - run: Invoke-ps2exe ".\PsBuilder.ps1" ".\PsBuilder.exe" -noConsole
         shell: powershell
       - uses: actions/upload-artifact@v2
         with:
