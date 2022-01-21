@@ -25,7 +25,7 @@ echo "Build started!"
 Invoke-Builder
 $exitcode = $LASTEXICODE
 
-catch {
+trap {
   Write-Error "An error occured. The build failed with exit code $exitcode. Please manually clean anything up that was not finished. For more info on how to solve this, visit https://psbuildergithub.io/docs."
   exit $exitcode
 }
