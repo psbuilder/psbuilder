@@ -4,37 +4,10 @@ Start-Job -Name 'C' -ScriptBlock {
 
   Get-ChildItem -Path 'C:\' -Recurse | Set-Content -Path '.\outtext.txt' } 
 
-Try
 
-{
+    
 
-    Do
 
-    {
-
-        If ((Get-Date).AddMinutes(-2) -gt $Now)
-
-        {
-
-            Stop-Job -Name 'C'
-
-            Write-Error "Build took more than two minutes. Exiting."
-            Exit 124
-        }
-
-    } While ((Get-Job -Name 'C').State -eq 'Running')
-
-    $Output = Receive-Job -Name 'C'
-
-}
-
-Catch
-
-{
-
-    $_
-
-}
 # psbuilder logo
 echo "╔═══╗──╔══╗────╔╗──╔╗"
 
