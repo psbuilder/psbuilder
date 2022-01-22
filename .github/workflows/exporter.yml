@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: cd .\
-      - name: Remove init from name of script
+      - name: Remove 𝚒𝚗𝚒𝚝 from name of script
         run: mv ".\PsBuilder.init.ps1" ".\PsBuilder.ps1"
       - uses: actions/upload-artifact@v2
         with:
