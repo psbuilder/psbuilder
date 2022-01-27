@@ -1,4 +1,5 @@
-
+$global:DIR = Get-Command Path
+if ($global:DIR -eq "") { $global:DIR = ./ }
 # psbuilder logo
 echo "╔═══╗──╔══╗────╔╗──╔╗"
 
@@ -22,14 +23,10 @@ echo "You are using PsBuilder on $env:os."
 echo "Installing module"
 Install-Module -Name PSBuilder -Force
 
-echo "installing the official powershell lint tool from microsoft"
-Install-Module -Name PSScriptAnalyzer -Force
 
-$global:DIR = cd
-echo "Lint started!"
-Invoke-ScriptAnalyzer -Path $global:DIR
+
 echo ""
-echo "Finished lint. Build started!"
+echo "Build started!"
 
 Invoke-Builder -Path $global:DIR
 
