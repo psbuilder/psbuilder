@@ -24,15 +24,19 @@ Install-Module -Name PSBuilder -Force
 
 echo "installing the official powershell lint tool from microsoft"
 Install-Module -Name PSScriptAnalyzer -Force
+
+$global:DIR = cd
 echo "Lint started!"
-Invoke-ScriptAnalyzer
+Invoke-ScriptAnalyzer -Path $global:DIR
 echo ""
 echo "Finished lint. Build started!"
-Invoke-Builder
-$exitcode = $LASTEXICODE
+
+Invoke-Builder -Path $global:DIR
+
 
 trap {
-  Write-Error "An error occured. The build failed with exit code $exitcode. Please manually clean anything up that was not finished. For more info on how to solve this, visit https://psbuildergithub.io/docs."
+  $global:exitcode = $LASTEXICODE
+  Write-Error "An error occured. The build failed with exit code $global:exitcode. Please manually clean anything up that was not finished. For more info on how to solve this, visit https://psbuildergithub.io/docs."
   exit $exitcode
 }
 
