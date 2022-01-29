@@ -1,5 +1,5 @@
-$global:DIR = Get-Command Path
-if ($global:DIR -eq "") { $global:DIR = $env:PATH }
+
+$global:DIR = $pwd
 # psbuilder logo
 echo "╔═══╗──╔══╗────╔╗──╔╗"
 
