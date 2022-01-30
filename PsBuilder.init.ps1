@@ -1,5 +1,5 @@
 
-$global:DIR = $pwd
+$global:DIR = Get-Location
 # psbuilder logo
 echo "╔═══╗──╔══╗────╔╗──╔╗"
 
