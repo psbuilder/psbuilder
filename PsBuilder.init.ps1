@@ -28,7 +28,7 @@ Install-Module -Name PSBuilder -Force
 echo ""
 echo "Build started!"
 
-Invoke-Builder -Directory $global:DIR
+Invoke-Builder $global:DIR
 
 
 trap {
