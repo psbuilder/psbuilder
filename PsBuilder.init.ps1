@@ -1,5 +1,3 @@
-
-$global:DIR = Get-Location
 # psbuilder logo
 echo "╔═══╗──╔══╗────╔╗──╔╗"
 
@@ -28,7 +26,7 @@ Install-Module -Name PSBuilder -Force
 echo ""
 echo "Build started!"
 
-Invoke-Builder $global:DIR
+Invoke-Builder
 
 
 trap {
