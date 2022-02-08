@@ -16,3 +16,8 @@ However, you may need to ask permission to publicly use it outside the web, like
 
 Even with PsBuilder's permission, you are not allowed to use our logo to link to a site not hosted by PsBuider,
 create mimicking sites, or otherwise misleading others.
+
+# The PsBuilder Banner
+<img src="./8f0b522e-35b4-4d1b-8651-6b1fd19dbf6f.png" align="right"></img>
+This banner is a demonstration of how PsBuilder runs. It will display once you find PsBuilder outside of Search or the user page.
+We release it under the [PsBuilder license](#rights).
