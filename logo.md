@@ -1,6 +1,6 @@
 # The PsBuilder Logo
 <img src="./97984807.png" align="right"></img>
-Our logo is the contents of a Microsoft Windows folder being took to a CD. You may download it subject ot the conditions.
+Our logo is the contents of a Microsoft Windows folder being took to a CD. You may download it subject to the conditions.
 
 
 
